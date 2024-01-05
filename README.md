@@ -59,11 +59,3 @@ Follow the _[How to use it ?](#how-to-use-it-)_ section to have a better underst
 ## Authors
 
 - [@AlxisHenry](https://github.com/AlxisHenry)
-
-```
-
-```
-
-```
-
-```
