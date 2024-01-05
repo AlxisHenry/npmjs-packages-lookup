@@ -1,4 +1,4 @@
-# NPM Packages lookup 🎓
+# NPM Packages lookup :package:
 
 This project is a simple NPM packages lookup. It allows you to get all dependencies used by all of the dependencies present in the `package.json` file of a project. It also allows you to specify needles to search for in the dependencies.
 
