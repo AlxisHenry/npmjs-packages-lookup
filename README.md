@@ -4,12 +4,11 @@ This project is a simple NPM packages lookup. It allows you to get all dependenc
 
 ## Table of contents
 
-- [NPM Packages lookup 🎓](#npm-packages-lookup-)
-  - [Table of contents](#table-of-contents)
-  - [How to use it ?](#how-to-use-it-)
-  - [Technical guide](#technical-guide)
-  - [Technologies](#technologies)
-  - [Authors](#authors)
+- [Table of contents](#table-of-contents)
+- [How to use it ?](#how-to-use-it-)
+- [Technical guide](#technical-guide)
+- [Technologies](#technologies)
+- [Authors](#authors)
 
 ## How to use it ?
 
