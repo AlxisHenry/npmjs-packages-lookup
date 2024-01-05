@@ -25,6 +25,8 @@ Then, you can use the `index.js` file in your own project.
 $ node index.js
 ```
 
+If you encounter the following error `SyntaxError: Cannot use import statement outside a module`, dont forgot to set `"type": "module` in your `package.json`. 
+
 If you want to setup specific needles to search for, you can edit the `search.json` file and add your own needles.
 
 **Note:** The `search.json` file must be an array of strings and the search is performed with the `includes` method.
