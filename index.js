@@ -7,7 +7,7 @@ if (fs.existsSync("./search.json")) {
 	try {
 		needles = JSON.parse(fs.readFileSync("./search.json", "utf8")).needles;
 		if (needles.length > 0) search = true;
-	} catch (e) { } lo
+	} catch (e) { }
 }
 
 if (!fs.existsSync("./package.json")) {
@@ -64,7 +64,7 @@ for (const dependency of dependencies) {
 				libDependencies.forEach((dep) => {
 					if (
 						search &&
-						needles.filter((needle) => dep.includes(needle)).length > 0
+						needles.filter((needle) => dep.toLowerCase().includes(needle.toLowerCase())).length > 0
 					) {
 						usedDependencies.push(dep);
 					} else if (!search) {
